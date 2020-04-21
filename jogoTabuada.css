@@ -1,0 +1,113 @@
+body{
+    
+}
+header{
+    background: rgb(223, 220, 220);
+	padding: 20px 0;   /*isso fara com que pegue o cabecalho todo*/
+}
+
+.cabecalho{
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 3%;
+    font-size: 450%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.escopoJogo{
+	margin: 0 auto;
+    padding: 50px 0;
+}
+
+.objetivo{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.paragrafos{
+    background-color: rgb(223, 220, 220);
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*
+.paragrafros{
+    background: gray;
+    text-align: center;
+    width: 394px;
+    margin: 0 auto;
+    font-size: larger;
+}*/
+
+.botaoComeco{
+    margin: 10px 0;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;   
+}
+
+.jogo{
+    
+}
+
+.visor{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    background:  rgb(223, 220, 220);
+    margin: 0 auto;
+    width: 95px;
+}
+
+
+.inputUsuario{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.resultado{
+    width: 60px;
+}
+
+.contador{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    background:  rgb(223, 220, 220);
+    margin: 0 auto;
+    width: 25px;
+}
+
+.comecoDoJogo{
+    transition: 0.5s;
+    padding: 16px;
+    font-size: 34px;
+}
+
+.corQuandoAcerta{
+    transition: 0.1s;
+    color: green;
+}
+
+.corQuandoErra{
+    transition: 0.1s;
+    color: red;
+}
+
+.final{
+    padding: 50px;
+    font-size: 100%;
+    width: 250px;
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Tabuada</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="jogoTabuada.css">
+
+</head>
+
+<body background="images.jpeg" bgproperties="fixed">
+
+    <header>
+        <div class="cabecalho">
+            <h1>Jogo da Tabuada</h1>
+        </div>
+    </header>
+
+    <main class="escopoJogo">
+
+        <div class="objetivo">
+            <div class="paragrafos">
+                <p class="paragrafroUm">O objetivo do jogo é fazer o número máximo de tabuadas.</p>
+                <p class="paragrafroDois">O seu tempo será de 30s, porém, a cada acerto, 
+                    terá um acréscimo de 1s na contagem e, a cada erro, terá um 
+                    decréscimo de 1s na contagem.</p>
+                <p class="paragrafroTres">Será que você consegue?</p>
+            </div>
+            <button class="botaoComeco">Começar</button>
+        </div>
+        <div class="jogo">
+            <label class="visor" id="visor">[tabuada]</label>
+            <div class="inputUsuario">
+                <input class="resultado" placeholder="Resultado">
+                <button class="botaoResultado">Enviar</button>
+            </div>
+            <label class="contador" id="contador">30 </label>
+        </div>
+        
+    </main>
+
+    <script src="contador.js"></script>
+    <script src="visor.js"></script>
+    
+
+</body>
+</html>
